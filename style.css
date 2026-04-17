@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz@0,14..32;1,14..32&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+p{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #3a3939;
+}
+
+.container{
+    width: min(90%, 700px);
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td{
+    text-align: left;
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+thead{
+    background-color: hwb(0 77% 22%);
+}
+
+
+.box1{
+    background-color: thistle;
+}
+
+.box2{
+    background-color: wheat;
+
+}
+
+.box3{
+    background-color:aliceblue;
+
+}
+
+.box4{
+    background-color:beige;
+
+}
+
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+}
